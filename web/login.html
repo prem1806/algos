@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="login.css">
+		<title>log_in/sign_up</title>
+		<script type="text/javascript">
+        function validate() {
+            // user name validation 
+            var name = document.getElementById("name").value;
+            if(name.length <= 1) {
+               alert("Please enter your username");
+               return false;
+            }
+
+
+            //password validation
+            var password = document.getElementById("password").value;
+            alert(password);
+            if(password.length <= 3){
+                alert("please enter strong password");
+                return false;
+            }
+
+            return true;
+        }
+		</script>
+</head>
+<body bgcolor="#8b9dc3">
+	<div class="center">	
+		<h1>log_in </h1>
+		<form method="post" name="myForm" onsubmit="return validate();">
+			<legend> user_name :</legend>
+			<input type="text" name="user_name" id="user_name">
+			<br>
+			<br>
+			<legend>password :</legend>
+			<input type="password" name="password"  id="password">
+			<br>
+			<br>
+			<input type="submit" name="submit">
+		</form>
+		<h1> (or)</h1>
+		<h1><a href="sign_up.com">sign up</a></h1>
+	</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+	font-style: italic;
+	font-size: 40px;
+	text-align: center;
+}
+
+a{
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+}
+.center{
+	margin: auto;
+	width: 13%;
+	border: 0.1px Solid #ffffff;
+
+}
+form{
+	text-align: center;
+	font-size: 15px;
+}

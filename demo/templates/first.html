@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical</title>
+</head>
+{% block body %}
+<h1>welcome</h1>
+<form action="/show_data" method="POST">
+	<label>user_name:</label>
+	<input type="text" name="user_name">
+	<br>
+	<br>
+	<label>password :</label>
+	<input type="password" name="password">
+	<br>
+	<br>
+	<input type="submit" name="submit">
+</form>
+{% endblock %}
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill payment</title>
+</head>
+{% block body %}
+	<h1 style="text-align: center">Madical Bill<h4>
+	<form action="/show_data" method="POST">
+	<label>Madical_name</label>
+	<input type="text" name="Madical_name">
+	<label>Unit_price</label>
+	<input type="text" name="Unit_price">
+	<label>Quantity</label>
+	<input type="text" name="Quantity">
+	<label>Cost</label>
+	<input type="text" name="Cost">	
+	<br>
+	<br>
+	<br>
+	<label>submit</label>
+	<input type="submit" name="submit">
+	</form>
+{% endblock %}
+</html>

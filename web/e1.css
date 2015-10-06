@@ -1,0 +1,13 @@
+p{
+	font-stretch:uppercase;
+	text-align: left;
+	text-decoration: underline;
+	text-shadow:4px 4px 8px blue;
+
+}
+input[type="submit"]{
+	color: #CC0000;
+	margin-top: 20px;
+	margin-left: 50px; 
+}
+

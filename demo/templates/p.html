@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Basic</title>
+</head>
+{% block body %}
+<form action="/show_data" method="POST">
+	user_id :<input type="text"  name="user_id">
+	<br>
+	password :<input type="password" name="password">
+	<br>
+	<input type="submit" name="submit" value="submit">
+</form>
+{% endblock  %}
+</html>

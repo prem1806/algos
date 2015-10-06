@@ -1,0 +1,11 @@
+h1{
+	text-align: center;
+	font-size: 50px;
+
+}
+
+.center{
+	margin: auto;
+	width: 100%;
+	border: 3px Solid #ffc89a;
+}

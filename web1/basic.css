@@ -1,0 +1,89 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",Times, serif;
+}
+
+h1 {
+  font-family: Helvetica, Geneva, Arial,SunSans-Regular, sans-serif;
+  text-align: center; 
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+  ul.navbar li {
+  margin: 0.5em 0;
+  padding: 0.3em;
+  background-color: ;
+}
+
+ul.navbar a {
+    text-decoration: none;
+}
+
+a:hover{
+  	color:blue;
+}
+
+a{
+  color: black;
+}
+
+address {
+  margin-left: 25em;
+  margin-top: 1em;
+  padding-top: 0em;
+}
+
+.border{
+  border-top: thin dotted;
+  padding-bottom: 0em;
+}
+
+ul.imp li{
+    
+    margin-left: 20em;
+
+}
+
+.midle{
+    	
+      background-color: lightgreen;
+    	top: -5	;
+    	padding-top: 0.5em;
+
+    }
+
+.quatation p{
+    margin-left:2em;
+    padding-bottom:3em;
+    font-style:italic;
+    font-size:150%
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

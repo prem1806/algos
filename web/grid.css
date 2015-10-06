@@ -1,0 +1,34 @@
+.grid-container{
+        width: 80%; 
+        max-width: 800px;      
+    }
+.row {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    [class*='col-'] {
+        float: left; 
+        min-height: 2px; 
+        width: 10.66%; 
+        /*-- our gutter -- */
+        padding: 12px; 
+        background-color: #FFDCDC;
+    }
+
+    .col-1{ width: 10.66%; }
+    .col-2{ width: 10.66%; }
+    .col-3{ width: 10.66%; }
+    .col-4{ width: 10.66%; }
+    
+
+    .outline, .outline *{
+        outline: 1px solid #F6A1A1; 
+    }
+     @media all and (max-width:650px){
+        .col-1{ width: 50%;        }
+        .col-2{ width: 100%;    }
+        .col-3{ width: 100%;    }
+        .col-4{ width: 100%;    }
+    }
